@@ -1,0 +1,128 @@
+
+.policy{
+    padding: 5rem 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+.policy > h2{
+    font-size: 4.8rem;
+    font-family: 'Power Grotesk';
+    text-align: center;
+    padding: 5rem;
+}
+.policy > h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.policy > p{
+    font-size: large;
+    padding: 0.5rem 0;
+    color: #B4B7BB;
+}
+.policy > ul, li{
+    color: #7A7A7A;
+    font-size: large;
+    width: fit-content;
+}
+.policy > ul{
+    padding: 0 2rem;
+}
+.policy a{
+    text-decoration: none;
+}
+.policy a li:hover{
+    color: #E348FF;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .policy {
+        padding: 4rem 2.5rem;
+    }
+    .policy > h2 {
+        font-size: 4.5rem;
+        padding: 5rem;
+    }
+    .policy > h3 {
+        font-size: 2rem;
+    }
+    .policy > p {
+        font-size: large;
+        padding: 0.5rem 0;
+    }
+    .policy > ul, .policy > ul li {
+        font-size: large;
+        padding: 0.5rem 0;
+    }
+    .policy > ul{
+        padding: 0 2rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .policy {
+        padding: 3rem 2rem;
+    }
+    .policy > h2 {
+        font-size: 4rem;
+        padding: 4rem 0;
+    }
+    .policy > h3 {
+        font-size: 2rem;
+    }
+    .policy > p {
+        font-size: large;
+        padding: 0.5rem 0;
+    }
+    .policy > ul, .policy > ul li {
+        font-size: large;
+        padding: 0.5rem 0;
+    }
+    .policy > ul{
+        padding: 0 2rem;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .policy {
+        padding: 2rem;
+    }
+    .policy > h2 {
+        font-size: 3.6rem;
+        padding: 4rem 0;
+    }
+    .policy > h3 {
+        font-size: 1.8rem;
+    }
+    .policy > p {
+        font-size: medium;
+        padding: 0.5rem 0;
+    }
+    .policy > ul, .policy > ul li {
+        font-size: medium;
+        padding: 0.5rem 0;
+    }
+    .policy > ul{
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 599px) {
+    .policy {
+        padding: 2rem 1rem;
+    }
+    .policy > h2 {
+        font-size: 3.2rem;
+        padding: 3rem 0;
+    }
+    .policy > h3 {
+        font-size: 1.8rem;
+    }
+    .policy > p {
+        font-size: medium;
+        padding: 0.3rem 0;
+    }
+    .policy > ul, .policy > ul li {
+        font-size: medium;
+        padding: 0.3rem 0;
+    }
+    .policy > ul{
+        padding: 0 2rem;
+    }
+}
